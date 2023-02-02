@@ -13,7 +13,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 32px;
+    
 }
 
 .bubble-area {
@@ -21,16 +21,18 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    padding-bottom: 32px;
+ 
 }
+
 
 .icon-row {
     width: 30%;
 }
-.card-bg{
-background-color: rgba(0, 0, 0, 0);
+
+.card-bg {
+    background-color: rgba(0, 0, 0, 0);
 }
+
 .parent {
     width: 700px;
 }
