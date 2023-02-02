@@ -1,0 +1,62 @@
+@font-face {
+    font-family: FontsFree-Net-Lastica;
+    src: url(../fonts/FontsFree-Net-Lastica.ttf);
+}
+
+main {
+    font-family: FontsFree-Net-Lastica;
+    max-width: 1920px;
+}
+
+.top-section {
+    background-image: url('../images/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 32px;
+}
+
+.bubble-area {
+    background-image: url('../images/3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-bottom: 32px;
+}
+
+.icon-row {
+    width: 30%;
+}
+.card-bg{
+background-color: rgba(0, 0, 0, 0);
+}
+.parent {
+    width: 700px;
+}
+
+.banner-floating-image {
+    height: 150px;
+    width: 150px;
+}
+
+.social-area {
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 200px) {
+    .parent {
+        width: 350px;
+    }
+
+    .icon-row {
+        width: 40%;
+    }
+
+    .social-area {
+        align-items: center;
+    }
+
+}
