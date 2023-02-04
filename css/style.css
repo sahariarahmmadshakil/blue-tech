@@ -1,10 +1,48 @@
+/* FontsFree-Net-Lastica */
 @font-face {
     font-family: FontsFree-Net-Lastica;
     src: url(../fonts/FontsFree-Net-Lastica.ttf);
 }
 
-main {
+.lastica {
     font-family: FontsFree-Net-Lastica;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* AnonymousPro  */
+@font-face {
+    font-family: AnonymousPro;
+    src: url(../fonts/AnonymousPro-Regular.ttf);
+}
+
+.anonymous-pro {
+    font-family: AnonymousPro;
+}
+
+/* TT Interphases Pro Trial Regular.ttf */
+@font-face {
+    font-family: TT-Interphases;
+    src: url(../fonts/TT-Interphases-Pro-Trial-Regular.ttf);
+}
+
+.tt-interface {
+    font-family: TT-Interphases;
+    letter-spacing: 2px;
+}
+
+/* PPTelegraf-Regular.otf */
+@font-face {
+    font-family: Telegraf;
+    src: url(../fonts/PPTelegraf-Regular.otf);
+}
+
+.telegraf {
+    font-family: Telegraf;
+    letter-spacing: 2px;
+}
+
+main {
     max-width: 1920px;
 }
 
@@ -13,7 +51,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
 .bubble-area {
@@ -21,7 +59,40 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
- 
+
+}
+
+.pc-fisso {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 10%;
+}
+
+.monitor {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 14%;
+}
+
+.cpu {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 6%;
+}
+
+.scheda-madre {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.scheda-madre-img {
+    margin-left: 8%;
+}
+
+.ram {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 17%;
 }
 
 
@@ -61,4 +132,7 @@ main {
         align-items: center;
     }
 
+    .pc-fisso {
+        margin-left: 15%;
+    }
 }
